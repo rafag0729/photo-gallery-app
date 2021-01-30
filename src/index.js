@@ -1,12 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { PhotoGalleryApp } from './PhotoGalleryApp';
-
+import { MainApp } from './MainApp';
 
 
 ReactDOM.render(
-  
-    <PhotoGalleryApp/>,
+      
+    <MainApp />,
   
   document.getElementById('root')
 );

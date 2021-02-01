@@ -22,15 +22,57 @@ h1{
     color: white;
 }
 
-.file_button{
+/* .app_content {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+} */
+
+.main_content {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.sidebar{
     background-color: var(--dark-gray);
     display: block;
-    float: right;
     padding: 2em;
-    border-radius: 0 0 0 10px;
-    text-align: right;
+    text-align: center;
     color: white;
+    width: 20%;
+    height: 100vh;
+    float: right;
 }
+
+.photo_stock{
+    width: 80%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+    
+    .image_item{
+        margin: 3%;
+        text-align: center;
+    }
+
+    .image_item img{
+        border-radius: 10px;
+    }
+
+    .image_item h3{
+        text-transform: capitalize;
+        margin: 3%;
+    }
+
+    .image_item span{
+        display: inline-block;
+        padding: 5px;
+        background-color: var(--dark-gray);
+        border-radius: 4px;
+        color: white;
+    }
 
 input[type="file"]{
     display: none;

@@ -55,7 +55,7 @@ export const SideBar = () => {
 
     return (
         <div
-            className="file_button">
+            className="sidebar">
             <button
                 onClick={ triggerUpload }
                 > Sube tu foto 

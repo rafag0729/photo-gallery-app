@@ -6,7 +6,6 @@ export const MainApp = () => {
 
     const [photoStock, setPhotoStock] = useState([]);
 
-
     return (
         <PhotoStockContext.Provider value={{
             photoStock,

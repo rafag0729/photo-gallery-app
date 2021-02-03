@@ -22,12 +22,6 @@ h1{
     color: white;
 }
 
-/* .app_content {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-} */
-
 .main_content {
     margin: 0 auto;
     max-width: 1200px;
@@ -40,39 +34,74 @@ h1{
     text-align: center;
     color: white;
     width: 20%;
+    min-width: 200px;
     height: 100vh;
     float: right;
 }
 
+    .preview{
+        margin-top: 15%;
+    }
+
+    .preview img{
+        width: 80%;
+        padding: 4px;
+        border-radius: 10px;
+        border: 3px solid grey;
+
+    }
+
+    .preview p {
+        font-size: 1.5rem;
+        font-weight: bold;
+        margin-top: 8%;
+
+    }
+
 .photo_stock{
-    width: 80%;
     display: flex;
+    width: 70%;
     flex-flow: row wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
     
     .image_item{
-        margin: 3%;
+        margin: 1%;
+        margin-top: 5%;
+        padding: 1%;
         text-align: center;
+        border-radius: 6px;
+        box-shadow: 0 0 80px 3px #545454f0, 3px 3px 10px 1px black;
     }
 
-    .image_item img{
-        border-radius: 10px;
-    }
+        .image_item img{
+            border-radius: 10px;
+        }
 
-    .image_item h3{
-        text-transform: capitalize;
-        margin: 3%;
-    }
+        .image_item h3{
+            text-transform: capitalize;
+            margin: 3%;
+        }
 
-    .image_item span{
-        display: inline-block;
-        padding: 5px;
-        background-color: var(--dark-gray);
-        border-radius: 4px;
-        color: white;
-    }
+        .image_item span{
+            display: inline-block;
+            padding: 5px;
+            background-color: var(--dark-gray);
+            border-radius: 4px;
+            color: white;
+        }
+
+.empty_stock{
+    height: 100vh;
+    padding: 2%;
+    text-align: center;
+}
+
+.empty_stock svg{
+    width: 50%;
+}
+
 
 input[type="file"]{
     display: none;

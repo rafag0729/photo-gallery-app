@@ -15,7 +15,7 @@ export const PhotoGalleryApp = () => {
 
         localStorage.getItem('photos') && setPhotoStock( JSON.parse(localStorage.getItem('photos')));
             
-    }, [])
+    }, [setPhotoStock])
 
     useEffect(() => {
         

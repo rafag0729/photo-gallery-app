@@ -98,9 +98,11 @@ h1{
     text-align: center;
 }
 
-.empty_stock svg{
-    width: 50%;
-}
+    .empty_stock svg{
+        margin-top: -100px;
+        margin-bottom: 0;
+        width: 30%;
+    }
 
 
 input[type="file"]{
